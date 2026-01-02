@@ -6,8 +6,6 @@ Aplikasi web sederhana (FastAPI + TensorFlow + HTML/JS statis) untuk memprediksi
 - `backend/main.py` — API FastAPI, pemuatan model Keras, preprocessing, endpoint prediksi.
 - `backend/models/final_model.h5` — model bawaan (DenseNet121, input 256×256, 4 kelas).
 - `frontend/` — halaman statis: `index.html` (landing) dan `prediction.html` (form prediksi) plus CSS/JS.
-- `cornguard.service` — contoh unit systemd untuk menjalankan backend via gunicorn+uvicorn.
-- `site1.conf` — contoh blok nginx untuk melayani frontend dan proxy `/api` ke backend.
 
 ## Fitur Utama
 - Prediksi 4 kelas: Bercak, Hawar, Karat, Sehat.
